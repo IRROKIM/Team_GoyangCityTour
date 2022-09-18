@@ -1010,8 +1010,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	left: 0;
 	bottom: 0;
 	height: 2px;
-	background: #808080;
-	width:1100px;
+	background: #bbbbbb;
+	width:1110px;
 }
 /* 끝 */
 
@@ -2060,6 +2060,26 @@ opacity
 .container .map_wrap .map_frame{
 	width: 830px; height:500px; border:1px solid #aaa;
 	display:block; margin: auto;
+}
+.map_tab_wrap .map_tab_1 a{
+	cursor:pointer;
+	text-decoration: none;
+}
+.map_tab_wrap .map_tab_1 a:link{
+	text-decoration: none;
+}
+.map_tab_wrap .map_tab_1 a:hover{
+	text-decoration: underline;
+}
+.map_tab_wrap .map_tab_2 a{
+	cursor:pointer;
+	text-decoration: none;
+}
+.map_tab_wrap .map_tab_2 a:link{
+	text-decoration: none;
+}
+.map_tab_wrap .map_tab_2 a:hover{
+	text-decoration: underline;
 }
 /* 끝  */
 #review{
