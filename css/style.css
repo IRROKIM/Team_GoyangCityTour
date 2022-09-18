@@ -2042,6 +2042,25 @@ opacity
 .p-text-align-tour{
 	text-align: center;
 }
+.container .map_wrap{
+	position: relative; margin: 0 auto 20px auto; background: rgba(26, 55, 77, 0.05);
+}
+.container .map_tab_wrap{
+	position: absolute; width:304px; 
+    height: 29px; display:table; right: 10px; top:-29px;
+}
+.container .map_wrap .map_tab_wrap .map_tab_1 {
+	color: #fff; padding-top: 8px; width: 50%; float: left;
+	display: table-cell; cursor: pointer; text-align: center; margin: 0;
+}
+.container .map_wrap .map_tab_wrap .map_tab_2 {
+	color: #444; padding-top: 8px; width: 50%; float: left;
+	display: table-cell; cursor: pointer; text-align: center; margin: 0;
+}
+.container .map_wrap .map_frame{
+	width: 830px; height:500px; border:1px solid #aaa;
+	display:block; margin: auto;
+}
 /* 끝  */
 #review{
 	width: 1123px;
