@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="http://211.63.89.134/html_prj/common/css/main_v1_220901.css">
+		<style type="text/css">
+			/* Table */
+			.member {
+			   border-collapse: collapse;
+			}
+			
+			.member th {
+			   color: #168;
+			   background: #f0f6f9;
+			   text-align: center;
+			}
+			
+			/* 수정 */
+			.member td {
+				text-align: center;
+			}
+			
+			.member th, .member td {
+			   padding: 10px;
+			   border: 1px solid #ddd;
+			}
+			
+			/* 수정
+			.member th:first-child, .member td:first-child {
+			   border-left: 0;
+			}
+			
+			.member th:last-child, .member td:last-child {
+			   border-right: 0;
+			} */
+			
+			.member tr td:first-child {
+			   text-align: center;
+			}
+			
+			.member caption {
+			   caption-side: bottom;
+			   display: none;
+			}
+			
+			.button111{
+				width: 100px;
+				height: 40px;
+				margin: 10px;
+				background-color: #f0f6f9;
+			}
+			
+			.button111:hover {
+				border: 1px solid #168;
+			} 
+			
+		</style>
+		<script type="text/javascript">
+		
+		</script>
+	</head>
+	
+	<body style="width: 800px;">
+		<div style="font-weight: bold; font-size: 15px; width: 783px; height: 40px; padding-left: 15px;
+		display: flex; align-items: center; background-color: #f0f6f9; border: 1px solid #ddd; margin-bottom: 5px">취소 사유</div>
+		
+		<div style="width: 800px">
+			<table class="member" style="width: 100%">
+				<tr>
+					<th>예약자명</th>
+					<td>김소현</td>
+				</tr>
+				<tr>
+					<th>이메일</th>
+					<td>56789@naver.com</td>
+				</tr>
+				<tr>
+					<th>휴대폰 번호</th>
+					<td>010-1234-5678</td>
+				</tr>
+				<tr>
+					<th>날짜</th>
+					<td>2022.09.09</td>
+				</tr>
+				<tr>
+					<th>투어코스</th>
+					<td>토요나들이</td>
+				</tr>
+				<tr>
+					<th>인원수 </th>
+					<td>성인(6,000원) : 2명</td>
+				</tr>
+				<tr>
+					<th>예약한 좌석 번호</th>
+					<td>18, 19</td>
+				</tr>
+				<tr>
+					<th>취소 사유</th>
+					<td>선약이 있었습니다...</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div style="display: flex; align-items: center; justify-content: center; margin-top: 10px;">
+			<input type="button" value="취소확정" class="button111">
+		</div>
+	</body>
+</html>
